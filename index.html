@@ -515,6 +515,16 @@
             }
         });
 
+        // Автоматическое переключение при загрузке по прямой ссылке с #
+        window.addEventListener('DOMContentLoaded', () => {
+            const hash = window.location.hash;
+            if (hash === '#orange') {
+               switchPage('orange');
+            } else if (hash === '#blue') {
+               switchPage('blue');
+            }
+        });
+
         // Инициализация
         updateClickableImages();
     </script>

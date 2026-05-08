@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-04-01T21:00:00+03:00">
+<yml_catalog date="2026-05-08T18:00:00+03:00">
   <shop>
     <name>ЛюмиЛейс</name>
     <company>Бренд детской одежды ЛюмиЛейс</company>
-    <url>https://lumilace.netlify.app</url>
+    <url>https://lumilace.github.io/</url>
     <currencies>
-      <currency id="RUR" rate="1"/>
+      <currency id="RUB" rate="1"/>
     </currencies>
     <categories>
       <category id="1">Одежда, обувь и аксессуары</category>
@@ -13,25 +13,47 @@
       <category id="3" parentId="2">Платья для девочек</category>
     </categories>
     <offers>
-      <offer id="631671340" available="true">
-        <url>https://lumilace.netlify.app/</url>
+      <offer id="ll_blue_98" group_id="ll_dress_vintage" available="true">
+        <url>https://lumilace.github.io/#blue</url>
         <price>1420</price>
-        <currencyId>RUR</currencyId>
+        <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
-        <picture>https://basket-31.wbcontent.net/vol6316/part631671/631671340/images/big/1.webp</picture>
-        <picture>https://basket-31.wbcontent.net/vol6316/part631671/631671340/images/big/2.webp</picture>
-        <picture>https://basket-31.wbcontent.net/vol6316/part631671/631671340/images/big/4.webp</picture>
-        <picture>https://basket-31.wbcontent.net/vol6316/part631671/631671340/images/big/7.webp</picture>
-        <name>Платье хлопковое винтажное для девочки ЛюмиЛейс</name>
+        <picture>https://lumilace.github.io/1.webp</picture>
+        <picture>https://lumilace.github.io/2.webp</picture>
+        <name>Платье хлопковое винтажное ЛюмиЛейс, голубое</name>
         <vendor>ЛюмиЛейс</vendor>
-        <description><![CDATA[Представляем Вашему вниманию платье хлопковое винтажное с воланом от «ЛюмиЛейс». Классический высокий воротник-стойка с изящным бантиком и декоративные пуговки придают образу особое очарование. Пышная юбка из хлопкового сатина дарит полную свободу движений для Вашей юной модницы. Застежка — молния на спинке.]]></description>
-        <param name="Пол">Для девочек</param>
+        <description><![CDATA[Винтажное платье из 100% хлопка с воланами.]]></description>
         <param name="Цвет">голубой</param>
-        <param name="Размер">98-122</param>
+        <param name="Размер">98</param>
+        <param name="Пол">Для девочек</param>
         <param name="Состав">хлопок 100%</param>
-        <param name="Фактура материала">сатин</param>
-        <param name="Особенности модели">воланы, рюши, рукав на резинке</param>
       </offer>
-    </offers>
+      
+      <offer id="ll_blue_104" group_id="ll_dress_vintage" available="true">
+        <url>https://lumilace.github.io/#blue</url>
+        <price>1420</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <name>Платье хлопковое винтажное ЛюмиЛейс, голубое</name>
+        <param name="Цвет">голубой</param>
+        <param name="Размер">104</param>
+        </offer>
+
+      <offer id="ll_orange_98" group_id="ll_dress_vintage" available="true">
+        <url>https://lumilace.github.io/#orange</url>
+        <price>1420</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://lumilace.github.io/8.webp</picture>
+        <name>Платье хлопковое винтажное ЛюмиЛейс, оранжевое</name>
+        <vendor>ЛюмиЛейс</vendor>
+        <description><![CDATA[Винтажное платье из 100% хлопка в сочном оранжевом цвете.]]></description>
+        <param name="Цвет">оранжевый</param>
+        <param name="Размер">98</param>
+        <param name="Пол">Для девочек</param>
+        <param name="Состав">хлопок 100%</param>
+      </offer>
+      
+      </offers>
   </shop>
 </yml_catalog>
